@@ -1,10 +1,10 @@
-%define		_ver  45
+%define		_ver  46
 Summary:	Download file manager (official core)
 Summary(pl):	¦ci±gacz plików (oficjalny)
 Name:		edonkey2k-core
 Version:	0.%{_ver}
-Release:	2
-Epoch:		2
+Release:	1
+Epoch:		1
 License:	unknown
 Group:		Applications/Communications
 Source0:	http://www.overnet.com/files/eDonkey%{version}.tar.gz
