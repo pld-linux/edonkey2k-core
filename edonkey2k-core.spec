@@ -1,6 +1,6 @@
 %define		_ver  45
 Summary:	Download file manager (official core)
-Summary(pl):	¦ci±gacz plików (oficialny)
+Summary(pl):	¦ci±gacz plików (oficjalny)
 Name:		edonkey2k-core
 Version:	0.%{_ver}
 Release:	2
