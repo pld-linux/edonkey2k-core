@@ -10,6 +10,7 @@ Group:		Applications/Communications
 Source0:	http://users.aber.ac.uk/tpm01/donkey_s_%{_ver}-%{_rel}-gaps.tar.gz
 Source1:	%{name}.sh
 URL:		http://ed2k-gtk-gui.sourceforge.net/core.shtml
+Provides:	eDonkey-core
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ExclusiveArch:	%{ix86}
 
