@@ -1,13 +1,13 @@
-%define		_rel  4
-%define		_ver  59
-Summary:	Download file manager (unofficial core)
-Summary(pl):	¦ci±gacz plików (nieoficialny)
+%define		_ver  44
+Summary:	Download file manager (official core)
+Summary(pl):	¦ci±gacz plików (oficialny)
 Name:		edonkey2k-core
-Version:	%{_ver}.%{_rel}
+Version:	0.%{_ver}
 Release:	1
+Epoch:		2
 License:	unknown
 Group:		Applications/Communications
-Source0:	http://users.aber.ac.uk/tpm01/donkey_s_%{_ver}-%{_rel}-gaps.tar.gz
+Source0:	http://sda.edonkey2000.com/files/eDonkey%{version}.tar.gz
 Source1:	%{name}.sh
 URL:		http://ed2k-gtk-gui.sourceforge.net/core.shtml
 Provides:	eDonkey-core
@@ -27,9 +27,9 @@ Download file manager hosted by http://www.edonkey2000.com/
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-install donkey_s_v%{_ver}-%{_rel}-gaps $RPM_BUILD_ROOT%{_bindir}/edonkey_s_v%{_ver}-%{_rel}-gaps
+install donkey_s_%{_ver} $RPM_BUILD_ROOT%{_bindir}/edonkey_s_v%{_ver}
 
-ln -s %{_bindir}/edonkey_s_v%{_ver}-%{_rel}-gaps $RPM_BUILD_ROOT%{_bindir}/edonkey
+ln -s %{_bindir}/edonkey_s_v%{_ver} $RPM_BUILD_ROOT%{_bindir}/edonkey
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/edonkey-conf
 
