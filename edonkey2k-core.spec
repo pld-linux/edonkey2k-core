@@ -1,13 +1,12 @@
-%define		_ver  46.2
 Summary:	Download file manager (official core)
 Summary(pl):	¦ci±gacz plików (oficjalny)
 Name:		edonkey2k-core
-Version:	0.%{_ver}
+Version:	0.48
 Release:	1
 Epoch:		1
 License:	unknown
 Group:		Applications/Communications
-Source0:	http://www.overnet.com/files/eDonkey%{version}.tar.gz
+Source0:	http://www.overnet.com/files/donkey%{version}.tar.gz
 Source1:	%{name}.sh
 URL:		http://ed2k-gtk-gui.sourceforge.net/core.shtml
 Provides:	eDonkey-core
@@ -27,9 +26,9 @@ Download file manager hosted by http://www.edonkey2000.com/
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-install donkey_s_%{_ver} $RPM_BUILD_ROOT%{_bindir}/edonkey_s_v%{_ver}
+install donkey%{version} $RPM_BUILD_ROOT%{_bindir}/edonkey%{version}
 
-ln -s %{_bindir}/edonkey_s_v%{_ver} $RPM_BUILD_ROOT%{_bindir}/edonkey
+ln -s %{_bindir}/edonkey%{version} $RPM_BUILD_ROOT%{_bindir}/edonkey
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/edonkey-conf
 
@@ -38,4 +37,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README
 %attr(755,root,root) %{_bindir}/*
