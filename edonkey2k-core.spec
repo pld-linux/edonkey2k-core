@@ -7,6 +7,7 @@ Epoch:		1
 License:	unknown
 Group:		Applications/Communications
 Source0:	http://www.overnet.com/files/donkey%{version}.tar.gz
+# Source0-md5:	c097945ecdef6163d3b7b36d5819b2f0
 Source1:	%{name}.sh
 URL:		http://ed2k-gtk-gui.sourceforge.net/core.shtml
 Provides:	eDonkey-core
