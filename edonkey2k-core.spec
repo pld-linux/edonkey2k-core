@@ -1,13 +1,13 @@
 Summary:	Download file manager (official core)
 Summary(pl):	¦ci±gacz plików (oficjalny)
 Name:		edonkey2k-core
-Version:	0.51.2
+Version:	0.50.1
 Release:	1
 Epoch:		1
 License:	unknown
 Group:		Applications/Communications
 Source0:	http://download.overnet.com/donkey%{version}.tar.gz
-# Source0-md5:	f41b09942dc3df66323752997c5fdfa4
+# Source0-md5:	dcda1d56faf30e63765d4206faff1168
 Source1:	%{name}.sh
 URL:		http://ed2k-gtk-gui.sourceforge.net/core.shtml
 Provides:	eDonkey-core
