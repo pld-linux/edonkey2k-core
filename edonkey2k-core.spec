@@ -36,6 +36,15 @@ install %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/edonkey-conf
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+%post
+echo""
+echo "Please type edonkey-conf, when you'll be logged as user"
+echo "It will prepare your donkey to use with ed2k :)"
+echo ""
+echo "You may also type overnet-conf, it will prepare overnet-core"
+echo "to use with ed2k, more info at http://www.overnet.com/"
+echo ""
+
 %files
 %defattr(644,root,root,755)
 %doc README
