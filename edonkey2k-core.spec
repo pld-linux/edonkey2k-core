@@ -1,4 +1,4 @@
-%define		_ver  46
+%define		_ver  46.2
 Summary:	Download file manager (official core)
 Summary(pl):	¦ci±gacz plików (oficjalny)
 Name:		edonkey2k-core
