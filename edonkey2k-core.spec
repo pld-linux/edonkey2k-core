@@ -3,7 +3,7 @@ Summary:	Download file manager (official core)
 Summary(pl):	¦ci±gacz plików (oficialny)
 Name:		edonkey2k-core
 Version:	0.%{_ver}
-Release:	1
+Release:	2
 Epoch:		2
 License:	unknown
 Group:		Applications/Communications
