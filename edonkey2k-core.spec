@@ -1,5 +1,5 @@
 Summary:	Download file manager (official core)
-Summary(pl.UTF-8):   Ściągacz plików (oficjalny)
+Summary(pl.UTF-8):	Ściągacz plików (oficjalny)
 Name:		edonkey2k-core
 Version:	0.50.1
 Release:	1
