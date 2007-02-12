@@ -1,5 +1,5 @@
 Summary:	Download file manager (official core)
-Summary(pl):	¦ci±gacz plików (oficjalny)
+Summary(pl.UTF-8):   ÅšciÄ…gacz plikÃ³w (oficjalny)
 Name:		edonkey2k-core
 Version:	0.50.1
 Release:	1
@@ -17,8 +17,8 @@ ExclusiveArch:	%{ix86}
 %description
 Download file manager hosted by http://www.edonkey2000.com/
 
-%description -l pl
-¦ci±gacz plików z http://www.edonkey2000.com/
+%description -l pl.UTF-8
+ÅšciÄ…gacz plikÃ³w z http://www.edonkey2000.com/
 
 %prep
 %setup -q -c
